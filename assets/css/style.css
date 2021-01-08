@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+body{
+    margin:0;
+    padding:0;
+    font-family: 'Rubik';
+    color:#2e52d3;
+}
+#top{
+    background:rgb(255,233,0);
+    margin:0;
+    height:70px;
+}
+#top > ul{
+    list-style: none;
+}
+#top > ul > li{
+    display: inline;
+}
+#top > ul > li > a{
+    text-decoration: none;
+    color:#2e52d3;
+    padding-left: 120px;
+    font-size: 18px;
+}
+#top > ul > li > a:hover{
+    text-decoration: underline;
+}   
+#top > ul > li > img{
+    padding-top:15px;
+    padding-left:5px;
+}
+#head{
+    background-color:rgba(160,155,155,0.15);
+    padding:20px 0 20px 0;
+}
+#head > div{
+    text-align:center;
+    font-size:35px;
+    color:#2e52d3;
+}
+#head > div > h1:nth-of-type(2){
+    line-height:10px;
+    font-size:70px;
+}
+#head > div > p{
+    font-size: 25px;
+    line-height:40px;
+}
+#head > div > p >span{
+    font-size:38px;
+}
+#sec{
+    padding:0 0 20px 0;
+}
+#sec > div{
+    text-align:center;
+    padding-top:20px;
+}
+#sec > div > input{
+    padding:10px;
+    width:300px;
+    border:1px solid #2e52d3;
+    font-size:17px;
+}
+#sec > div > input:nth-of-type(2){
+    background-image: url(../img/iconfinder_calendar_285670.png);
+    background-position:right;
+    background-repeat:no-repeat;
+    background-size: 35px;
+}
+#sec > div > input:nth-of-type(3){
+    background-image:url(../img/iconfinder_Picture5_3289567.png);
+    background-position:right;
+    background-repeat:no-repeat;
+    background-size: 35px;
+}
+#sec2{
+    background:rgb(198,12,18);
+}
+#sec2 > div > p{
+    color:#fff;
+}
+#sec2 > div{
+    display: inline-block;
+    text-align: center;
+    padding-top:80px;
+    padding-left:140px;
+    padding-bottom: 30px;
+}
+#sec2 > div > img{
+    border:1px solid #2e52d3;
+}
+#sec2 > div > a{
+    text-decoration:none;
+    color:#fff;
+    font-size:20px;
+}
+#sec2 > div > a:hover{
+    color:rgb(46,82,211);
+}
+#footer{
+    clear:both;
+    border-top:1px solid #2e52d3;
+    background-color:rgb(255,233,0);
+    padding-bottom:10px;
+}
+#footer > ol{
+    list-style: none;
+    padding-left:100px;
+}
+#footer > ol > li{
+    display: inline;
+}
+#footer > ol > li > a{
+    text-decoration: none;
+    color:rgb(0,82,147);
+    font-size:18px;
+    padding-left:150px;
+}
+#footer > ol > li > a:hover{
+    text-decoration: underline;
+}
+footer p{
+    text-align:center;
+    padding-top:10px;
+    font-size:10px;
+}
+
+
